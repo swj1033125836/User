@@ -10,8 +10,9 @@
 <head>
     <title>Title</title>
 </head>
-<br>
+<body>
     <h1>注册</h1>
+    <p style="color: red; font-weight: 900" >${msg}</p>
     <form action="/User/RegistServlet" method="post">
         用户名：<input type="text" name="username"/></br>
         密  码：<input type="password" name="password"/></br>
